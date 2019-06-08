@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+	body{font-family: 'Patua One', cursive;}
+
+#navi {
+	position:fixed;
+	width:100vw;
+	z-index:10000;
+	background:#fff;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+#navi h1 {
+	float:left;
+	margin-left:3px;
+}
+.mainnav {
+	position:relative;
+	float:left;
+	height:60px;
+	margin:10px 0 0 50px;
+}
+.mainnav li {
+	list-style: none;
+	float:left;
+	display:inline-block;
+	margin: 14px 50px;
+}
+.mainnav a {
+	color: #000;
+	font-size:20px;
+	text-decoration: none;
+}
+a:hover{
+	color: #e9592c;
+}
+
+.footer{
+	clear:both;
+	padding-top:8px;
+}
+
+
+#ms1, #ms2, #ms3, #ms4{
+	cursor:pointer;
+	min-height:730px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	position:relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow:hidden;
+}
+
+.bg-holder{
+	width:100%;
+	height:100%;
+}
+
+.container .content {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.content h3{
+	font-family:'Nexa Bold';
+	color:#e9592c;
+	font-size:65px;
+	text-align:center;
+}
+
+.content p{
+	margin-top:12px;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:32px;
+	font-size:24px;
+	text-align:center;
+	color:#000;
+}
+
+.icon{
+	text-align:center;
+	margin-top:10px;
+	height:118px;
+	margin:0 auto;
+}
